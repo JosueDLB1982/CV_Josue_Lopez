@@ -5,7 +5,7 @@ const Info = () => {
   return (
     <Box className={styles.container}>
       
-        <h1 className={styles.tittle}>INFORMACIÓN</h1>
+        <Typography variant='h4' className={styles.tittle}>INFORMACIÓN</Typography>
         <Grid className={styles.containerInfo} container spacing={8}>
           <Grid item xs={12} md={6}>
             <Typography variant='h5'>

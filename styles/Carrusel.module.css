@@ -1,0 +1,31 @@
+.buttonCv {
+    margin: 0.5rem;
+    margin-right: 3rem;
+    color: white;
+    font: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+    font-size: 1rem;
+    background-color: #2797e9;
+    border-radius: 10px;
+}
+
+.buttonCv:hover {
+    background-color: white;
+    color: #2797e9;
+}
+
+.parrafo {
+    font-size: 25px;
+    color: white;
+    background-color: #2797e9;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.botones {
+    color: white;
+    font-size: 25px;
+    padding: 4px;
+    margin-bottom: 8rem;
+}

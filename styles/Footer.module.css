@@ -1,0 +1,37 @@
+.diseño {
+    background-color: #eeeef5;
+    width: 100%;
+    height: 100%;
+    padding: 4rem;
+}
+
+.buttonCv {
+    margin: 0.5rem;
+    margin-right: 3rem;
+    color: white;
+    font: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+    font-size: 1rem;
+    background-color: #383877;
+    border-radius: 10px;
+}
+
+.buttonCv:hover {
+    background-color: white;
+    color: #383877;
+  }
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+.avatar {
+    margin: 0 6px;
+}
+
+.letra {
+    font-family: 'Courier New', Courier, monospace;
+}

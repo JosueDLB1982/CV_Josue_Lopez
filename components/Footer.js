@@ -2,16 +2,16 @@ import styles from '../styles/Footer.module.css'
 import { Grid, Button, Box, Avatar, Typography } from '@mui/material'
 
 const Footer = () => {
-  const Download = () => {
+  /* const Download = () => {
     window.open('https://drive.google.com/uc?id=1JALJ9eSOt37VktPBvwBw37QhB6GjpNPl&export=download', "_parent")
-  }
+  } */
 
   return (
     <footer className={styles.diseño}>
       <Grid container spacing={2}>
         <Grid item xs={12} sm={6} md={6} lg={6} xl={6}>
           <Box className={styles.contenedor}>
-            <Button className={styles.buttonCv} variant="outlined" onClick={Download}>DESCARGAR MI CV COMPLETO</Button>
+            <Button className={styles.buttonCv} variant="outlined" /* onClick={Download} */>DESCARGAR MI CV COMPLETO</Button>
           </Box>
         </Grid>
         <Grid item xs={12} sm={6} md={6} lg={6} xl={6}>

@@ -12,13 +12,29 @@ const Info = () => {
           <Typography variant="h5">Teléfono:</Typography>
         </Grid>
         <Grid item xs={12} md={6}>
+          <Link 
+            href="https://api.whatsapp.com/send/?phone=0056939091552&text=Sigue+al+chat+para+comunicarte+conmigo.&app_absent=0"
+            underline="none"
+            color="white"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
           <Typography variant="p">939091552</Typography>
+          </Link>
         </Grid>
         <Grid item xs={12} md={6}>
           <Typography variant="h5">Email:</Typography>
         </Grid>
         <Grid item xs={12} md={6}>
+        <Link 
+            href="mailto:josuedlopez1982@gmail.com"
+            underline="none"
+            color="white"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
           <Typography variant="p">josuedlopez1982@gmail.com</Typography>
+          </Link>
         </Grid>
         <Grid item xs={12} md={6}>
           <Typography variant="h5">Sitio web:</Typography>

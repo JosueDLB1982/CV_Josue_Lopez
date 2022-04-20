@@ -114,3 +114,7 @@
     flex-direction: column;
   }
 }
+
+.infoForm {
+  display: flex;
+}

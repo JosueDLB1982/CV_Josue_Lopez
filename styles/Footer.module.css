@@ -1,4 +1,4 @@
-.diseño {
+.style {
     background-color: #eeeef5;
     width: 100%;
     height: 100%;
@@ -22,7 +22,7 @@
     color: #383877;
   }
 
-.contenedor {
+.container {
     display: flex;
     justify-content: center;
     padding: 5px;

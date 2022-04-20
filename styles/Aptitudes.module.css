@@ -1,12 +1,57 @@
-.aptitudes {
-    color: white
+.container {
+    margin-top: 38rem;
 }
 
-.aptitudesCont {
-    margin-bottom: 3rem;
-    border-radius: 6px;
+.box1{
+    width: 10vw;
+    height: 10vw;
+    background-color: #383877;
+    z-index: 3;
+    position: absolute;
+    transform: translate(166%, -430.5%);
 }
 
-.aptitudesImg {
-    border-radius: 6px;
+.box2{
+    width: 22vw;
+    height: 19.5vw;
+    background-color: #383877;
+    z-index: 3;
+    position: absolute;
+    transform: translate(75.5%, -174.5%);
+}
+
+.box3{
+    width: 15.94vw;
+    height: 14.49vw;
+    background-color: #383877;
+    z-index: 3;
+    position: absolute;
+    transform: translate(241%, -200%);
+}
+
+.box4{
+    width: 12.9vw;
+    height: 9.145vw;
+    background-color: #bdc3df;
+    z-index: 2;
+    position: absolute;
+    transform: translate(206.33%, -471%);
+}
+
+.box5{
+    width: 16vw;
+    height: 14.379vw;;
+    background-color: #bdc3df;
+    z-index: 2;
+    position: absolute;
+    transform: translate(241%, -299.6%);
+}
+
+.box6{
+    width: 32.1vw;
+    height: 28.57vw;
+    background-color: #bdc3df;
+    z-index: 2;
+    position: absolute;
+    transform: translate(169.4%, -150.8%);
 }

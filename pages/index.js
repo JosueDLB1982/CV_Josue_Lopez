@@ -1,6 +1,6 @@
 import { Grid, Box } from '@mui/material'
 import Header from '../components/Header'
-import Carrusel from '../components/Carrusel'
+import Carousel from '../components/Carousel'
 import Aptitudes from '../components/Aptitudes'
 import Info from '../components/Info'
 import Form from '../components/Form'
@@ -15,27 +15,27 @@ const DynamicComponentWithNoSSR = dynamic(() => import('../components/Modal'), {
 const Home = () => {
 
   return (
-    <>
+    <Box>
       <DynamicComponentWithNoSSR />
       <Box>
-        <Header />
+        <Header/>
 
-        <Carrusel />
+        <Carousel />
 
         <Aptitudes />
 
-        <Grid container>
-          <Grid item xs={12} sm={6} md={6} lg={6} xl={6}>
+        <Box sx={{display: 'flex'}}>
+          <Grid item xs={12} md={6}>
             <Info />
           </Grid>
-          <Grid item xs={12} sm={6} md={6} lg={6} xl={6}>
+          <Grid item xs={12} md={6}>
             <Form />
           </Grid>
+        </Box>
           <Footer />
-        </Grid>
 
       </Box>
-    </>
+    </Box>
   )
 }
 export default Home

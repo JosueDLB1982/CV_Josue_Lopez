@@ -1,39 +1,41 @@
-.form {
-    background-color: #bdc3df;
-    margin-top: 1rem;
-    width: 100%;
-    height: 100%;
+.name {
+  display: flex;
+  gap: 12px;  
 }
 
-.container {
-    margin-top: 1.5rem;
+.form {
+  background-color: #bdc3df;
+  margin-top: 1rem;
+  width: 751px;
+  height: 100%;
 }
 
 .tittle {
-    padding-top: 2rem;
-    padding-left: 2rem;
-    padding-bottom: 0.5rem
+  padding-top: 2rem;
+  padding-left: 2rem;
+  padding-bottom: 0.5rem;
 }
 
 .button {
-    display: flex;
-    align-items: center;
-    color: gray;
-    font: bold;
-    padding: 5px 30px;
-    margin-bottom: 6px;
-    background-color: #383877;
-    color: white;
+  display: flex;
+  align-items: center;
+  color: gray;
+  font: bold;
+  padding: 5px 30px;
+  margin-bottom: 6px;
+  background-color: #383877;
+  color: white;
 }
 
 .button:hover {
-    background-color: azure;
-    color: #383877;
+  background-color: azure;
+  color: #383877;
 }
 
 .center {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
+

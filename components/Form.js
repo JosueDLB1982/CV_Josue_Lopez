@@ -19,7 +19,7 @@ const Form = () => {
         .max(10, "El nombre ingresado es muy largo."),
 
       lastName: Yup.string()
-        .required("Debe Ingresar el Apellido")
+        .required("Debe Ingresar su Apellido")
         .min(3, "El Apellido ingresado es muy corto.")
         .max(10, "El Apellido ingresado es muy largo."),
 

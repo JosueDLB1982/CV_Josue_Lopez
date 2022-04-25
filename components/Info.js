@@ -13,7 +13,7 @@ const Info = () => {
         </Grid>
         <Grid item xs={12} md={6}>
           <Link 
-            href="https://api.whatsapp.com/send/?phone=0056939091552&text=Sigue+al+chat+para+comunicarte+conmigo.&app_absent=0"
+            href="https://api.whatsapp.com/send/?phone=0056939091552&text=Sigue+al+chat+para+comunicarte+con+Josue+Lopez+Frontend+Developer.&app_absent=0"
             underline="none"
             color="white"
             target="_blank"

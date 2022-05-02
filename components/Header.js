@@ -28,7 +28,7 @@ const Header = () => {
                 variant="outlined"
                 onClick={Download}
               >
-                DESCARGAR MI CV COMPLETO
+                DESCARGAR CV COMPLETO
               </Button>
             </Grid>
           </Grid>
